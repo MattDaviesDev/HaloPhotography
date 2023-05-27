@@ -180,7 +180,9 @@ p {
     margin-bottom: 10px;
 }
 
-@media (max-width: 767px) { /* Adjust the breakpoint as needed */
+@media all and (min-width:0px) and (max-width: 1000px) {
+    /* put your css styles in here 
+@media only screen and (max-width < 600px) { /* Adjust the breakpoint as needed */
     .areas-content {
         flex-direction: column; /* Display divs vertically on mobile */
         text-align: center; /* Center the content vertically on mobile */
