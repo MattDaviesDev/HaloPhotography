@@ -1,13 +1,13 @@
 header {
-    background-color: #333;
-    padding: 20px;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
   .logo img {
-    height: 50px;
+    height:80px;
     width: auto;
   }
   
@@ -23,7 +23,7 @@ header {
   }
   
   nav ul li a {
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
   }
   
