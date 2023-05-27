@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--grey);
-    font-family: "Monserrat", sans-serif;
+    font-family: "Monserrat";
 }
 
 .carousel-container {
