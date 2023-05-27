@@ -5,7 +5,7 @@
     background-color: var(--accent-color);
     color: black;
     border: solid black 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
     transition: 0.3s;
 }
