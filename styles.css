@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--grey);
-    font-family: "Sofia", sans-serif;
+    font-family: "Monserrat", sans-serif;
 }
 
 .carousel-container {
@@ -189,6 +189,14 @@ p {
     }
     .areas-content-alternate {
         flex-direction: column-reverse; /* Display divs vertically on mobile */
+    }
+
+       h2{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 42px;
     }
 
 
