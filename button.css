@@ -4,7 +4,7 @@
     padding: 10px 20px;
     background-color: var(--accent-color);
     color: black;
-    border: solid black 5px;
+    /*border: solid black 5px;*/
     border-radius: 10px;
     font-size: 1rem;
     transition: 0.3s;
@@ -14,4 +14,10 @@
     background-color: var(--second-accent-color);
     transform: scale(1.25);
     cursor: pointer;
+}
+
+@media all and (min-width:0px) and (max-width: 1000px) {
+    .main-button {
+        font-size: 40px;
+    }
 }
