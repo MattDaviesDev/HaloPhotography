@@ -1,0 +1,17 @@
+.main-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: black;
+    border: solid black 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.main-button:hover {
+    background-color: var(--second-accent-color);
+    transform: scale(1.25);
+    cursor: pointer;
+}
